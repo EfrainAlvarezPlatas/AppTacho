@@ -1,0 +1,161 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="mx.edu.utng.prueba.FragmentAcercaDe"
+        android:maxLines = "800"
+        android:orientation="vertical"
+        android:scrollbars = "vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Quiénes Somos?"
+            android:textSize="20pt"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="#252D9C"
+            android:textAlignment="center"
+            android:id="@+id/txv_quienes"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txv_mision_titulo"
+            android:text="Misión"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal|top"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/txv_mision"
+            android:text="Somos una institución de educación superior tecnológica que forma profesionistas competitivos a través de programas de calidad para contribuir al desarrollo del estado."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txv_vision_titulo"
+            android:text="Visión"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal|top"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txv_vision"
+            android:text="En el 2020 seremos reconocidos por nuestros egresados formados integral y globalmente, con empleabilidad acorde a su perfil superior a la media estatal; por nuestros programas de grado acreditados o evaluados al 100% y por contar con un postgrado; 15 % de nuestros profesores participarán en programas de movilidad y 50% de los cuerpos académicos estarán consolidados."
+            android:textAlignment="inherit"
+            android:layout_below="@+id/txv_mision"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Política de Calidad"
+            android:id="@+id/txv_politica_titulo"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal|top"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La Universidad Tecnológica del Norte de Guanajuato se compromete con sus alumnos y la sociedad a ofrecer servicios educativos del nivel superior así como servicios de educación continua y tecnológicos con calidad, empleando de manera eficiente los recursos y aplicando la mejora continua en beneficio del desarrollo regional y ambiental previniendo la contaminación y apegándose a las disposiciones legales ambientales."
+            android:id="@+id/txv_politica"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desarrollador: "
+            android:id="@+id/txv_desarrollador"
+            android:textSize="30dp"
+            android:textColor="#0f0fe6"
+            android:layout_gravity="center_horizontal|top"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TSU. Angel Efrain Alvarez Platas"
+            android:nextFocusDown="@id/txv_desarrollador"
+            android:id="@+id/txv_nombre"
+            android:textSize="25dp"
+            android:textColor="#0c0c0d"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="angefras1990@hotmail.com\nangefras1990@gmail.com"
+            android:id="@+id/txv_correo"
+            android:textSize="25dp"
+            android:textColor="#0c0c0d"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Universidad: "
+            android:layout_below="@+id/txv_nombre"
+            android:id="@+id/txv_universidad"
+            android:textColor="#0f0fe6"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal|top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Universidad Tecnologica Del Norte De Guanajuato"
+            android:layout_below="@+id/txv_nombre"
+            android:id="@+id/txv_nom_univ"
+            android:textColor="#0c0c0d"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:layout_gravity="center_horizontal|top" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asesor: "
+            android:layout_below="@+id/txv_nombre"
+            android:id="@+id/txv_asesor"
+            android:textColor="#0f0fe6"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal|top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anastacio Rodriguez Garcia"
+            android:layout_below="@+id/txv_nombre"
+            android:id="@+id/txv_nom_asesor"
+            android:textColor="#0c0c0d"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:layout_gravity="center_horizontal|top" />
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtCredits"
+            android:autoLink="web"
+            android:id="@+id/infoTxtCredits"
+            android:clickable="true"
+            android:layout_centerInParent="true"
+            android:linksClickable="true"
+            android:layout_gravity="center_horizontal|bottom"></TextView>
+    </LinearLayout>
+</ScrollView>

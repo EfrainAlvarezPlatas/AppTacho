@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_intro_leccion"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:text="Ventana glass"
+        android:layout_marginTop="0dp"
+        android:textColor="#cf6e6e"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="702dp"
+        android:id="@+id/txv_intro_leccion2"
+        android:text="@string/contenido_ventana_glass"
+        android:layout_gravity="center_horizontal|top"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_adelante_glass"
+        android:src="@drawable/ic_adelante"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="730dp"
+        android:clickable="true"
+        android:layout_gravity="right|bottom">
+    </android.support.design.widget.FloatingActionButton>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_atras_glass"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="730dp"
+        android:clickable="true"
+        android:layout_gravity="bottom">
+    </android.support.design.widget.FloatingActionButton>
+
+
+
+</FrameLayout>
+    </ScrollView>

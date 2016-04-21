@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d6d3d3"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".main.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduccion"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="88dp"
+        android:id="@+id/btn_intro"
+        android:layout_height="51dp"
+        android:src="@drawable/intro"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:background="#fcfcfc"
+        android:clickable="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué es JavaFx"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arquitectura"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_marginTop="130dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_hilos"
+        android:src="@drawable/layouts"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="170dp"
+        android:clickable="true">
+    </android.support.design.widget.FloatingActionButton>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hilos, CSS, Layouts"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="230dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_graficos"
+        android:src="@drawable/graficos"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="70dp"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scene Graph, Graficos,"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="230dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ventana glass"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="240dp"
+        />
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Implementando Código"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_marginTop="280dp"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_xml"
+        android:src="@drawable/xml"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="320dp"
+        android:clickable="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola Mundo, Incluyendo CSS"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="380dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_mundo"
+        android:src="@drawable/hola_mundo"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="70dp"
+        android:clickable="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interfaz FXML"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="380dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/advertencia_pasar_quiz"
+        android:layout_marginTop="460dp"
+        android:textSize="10dp"
+        />
+
+</FrameLayout>

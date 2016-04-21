@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_temario"
+            android:icon="@drawable/temario"
+            android:title="Temario" />
+        <item
+            android:id="@+id/nav_cuestionarios"
+            android:icon="@drawable/quiz2"
+            android:title="Cuestionarios" />
+        <item
+        android:id="@+id/nav_juegos"
+        android:icon="@drawable/juego"
+        android:title="Juego" />
+        <item
+            android:id="@+id/nav_correo"
+            android:icon="@drawable/login"
+            android:title="Envio de correo" />
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/videos"
+            android:title="Videos" />
+
+        <item
+            android:id="@+id/nav_audio"
+            android:icon="@drawable/audio"
+            android:title="Audio" />
+
+        <item
+            android:id="@+id/nav_valorar"
+            android:icon="@drawable/valorar"
+            android:title="Valorar" />
+        <item
+            android:id="@+id/nav_acercade"
+            android:icon="@drawable/acercade"
+            android:title="Acerca de" />
+        <item
+            android:id="@+id/nav_configuracion"
+            android:icon="@drawable/ajustes"
+            android:title="Configuracion" />
+    </group>
+
+</menu>

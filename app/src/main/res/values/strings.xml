@@ -1,0 +1,237 @@
+<resources>
+    <string name="app_name">LearnJavaFx</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="txtCredits">www.utng.edu.mx</string>
+    <string name="txt_link">https://youtu.be/uxVvOLrs2O0</string>
+    <string name="long_text">
+        Java se creó como una herramienta de programación para ser usada en un proyecto de set-top-box en una pequeña operación denominada the Green Project en Sun Microsystems en el año 1991. El equipo (Green Team), compuesto por trece personas y dirigido por James Gosling, trabajó durante 18 meses en Sand Hill Road en Menlo Park en su desarrollo.
+
+El lenguaje se denominó inicialmente Oak (por un roble que había fuera de la oficina de Gosling), luego pasó a denominarse Green tras descubrir que Oak era ya una marca comercial registrada para adaptadores de tarjetas gráficas y finalmente se renombró a Java.
+
+Es frecuentada por algunos de los miembros del equipo. Pero no está claro si es un acrónimo o no, aunque algunas fuentes señalan que podría tratarse de las iniciales de sus diseñadores: James Gosling, Arthur Van Hoff, y Andy Bechtolsheim. Otros abogan por el siguiente acrónimo, Just Another Vague Acronym ("sólo otro acrónimo ambiguo más"). La hipótesis que más fuerza tiene es la de que Java debe su nombre a un tipo de café disponible en la cafetería cercana, de ahí que el icono de java sea una taza de café caliente. Un pequeño signo que da fuerza a esta teoría es que los 4 primeros bytes (el número mágico) de los archivos.class que genera el compilador, son en hexadecimal, 0xCAFEBABE. A pesar de todas estas teorías, el nombre fue sacado al parecer de una lista aleatoria de palabras.3
+
+Los objetivos de Gosling eran implementar una máquina virtual y un lenguaje con una estructura y sintaxis similar a C++. Entre junio y julio de 1994, tras una sesión maratoniana de tres días entre John Gaga, James Gosling, Patrick Naughton, Wayne Rosing y Eric Schmidt, el equipo reorientó la plataforma hacia la Web. Sintieron que la llegada del navegador web Mosaic, propiciaría que Internet se convirtiese en un medio interactivo, como el que pensaban era la televisión por cable. Naughton creó entonces un prototipo de navegador, WebRunner, que más tarde sería conocido como HotJava.
+
+En 1994, se les hizo una demostración de HotJava y la plataforma Java a los ejecutivos de Sun. Java 1.0a pudo descargarse por primera vez en 1994, pero hubo que esperar al 23 de mayo de 1995, durante las conferencias de SunWorld, a que vieran la luz pública Java y HotJava, el navegador Web. El acontecimiento fue anunciado por John Gage, el Director Científico de Sun Microsystems. El acto estuvo acompañado por una pequeña sorpresa adicional, el anuncio por parte de Marc Andreessen, Vicepresidente Ejecutivo de Netscape, de que Java sería soportado en sus navegadores. El 9 de enero del año siguiente, 1996, Sun fundó el grupo empresarial JavaSoft para que se encargase del desarrollo tecnológico. [1] Dos semanas más tarde la primera versión de Java fue publicada.
+
+La promesa inicial de Gosling era Write Once, Run Anywhere (Escríbelo una vez, ejecútalo en cualquier lugar), proporcionando un lenguaje independiente de la plataforma y un entorno de ejecución (la JVM) ligero y gratuito para las plataformas más populares de forma que los binarios (bytecode) de las aplicaciones Java pudiesen ejecutarse en cualquier plataforma.
+
+El entorno de ejecución era relativamente seguro y los principales navegadores web pronto incorporaron la posibilidad de ejecutar applets Java incrustadas en las páginas web.
+
+Java ha experimentado numerosos cambios desde la versión primigenia, JDK 1.0, así como un enorme incremento en el número de clases y paquetes que componen la biblioteca estándar.4
+
+Desde J2SE 1.4, la evolución del lenguaje ha sido regulada por el JCP (Java Community Process), que usa Java Specification Requests (JSRs) para proponer y especificar cambios en la plataforma Java. El lenguaje en sí mismo está especificado en la Java Language Specification (JLS), o Especificación del Lenguaje Java. Los cambios en los JLS son gestionados en JSR 901.
+
+JDK 1.0 (23 de enero de 1996) — Primer lanzamiento: comunicado de prensa
+JDK 1.1 (19 de febrero de 1997) — Principales adiciones incluidas: comunicado de prensa
+una reestructuración intensiva del modelo de eventos AWT (Abstract Windowing Toolkit)
+clases internas (inner classes)
+JavaBeans
+JDBC (Java Database Connectivity), para la integración de bases de datos
+RMI (Remote Method Invocation)
+J2SE 1.2 (8 de diciembre de 1998) — Nombre clave Playground. Esta y las siguientes versiones fueron recogidas bajo la denominación Java 2 y el nombre "J2SE" (Java 2 Platform, Standard Edition), reemplazó a JDK para distinguir la plataforma base de J2EE (Java 2 Platform, Enterprise Edition) y J2ME (Java 2 Platform, Micro Edition). Otras mejoras añadidas incluían: comunicado de prensa
+la palabra reservada (keyword) strictfp
+reflexión en la programación
+la API gráfica ( Swing) fue integrada en las clases básicas
+la máquina virtual (JVM) de Sun fue equipada con un compilador JIT (Just in Time) por primera vez
+Java Plug-in
+Java IDL, una implementación de IDL (Lenguaje de Descripción de Interfaz) para la interoperabilidad con CORBA
+Colecciones (Collections)</string>
+    <string name="title_activity_ajustes">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="temario">1. Antes que todo\n 1.1. JAVAFX\n 1.2. Características clave\n 1.3. Que puedo construir\n 1.4. Modelo Vista Controlador\n 2. Arquitectura JAVAFXr\n 2.1. Scene Graph.r\n  2.2. Gráficos del sistema.r\n 2.3. Ventanas Glass\n 2.4. Hilos.r\n 2.5. Imágenes, multimedia y componente web\n 2.6. CSS.r\n 2.7. Controles UI.r\n 2.8. Layouts\n 3.   Implementando código\n 3.1. Hola Mundo.r\n 3.2. Incluyendo el CSS\n 3.3. Diseño de interfaz con FXML\n </string>
+    <string name="esta_en_valorar">Se encuentra en la seccion para valorar la aplicacion en Play Store</string>
+    <string name="usuario">Usuario</string>
+    <string name="contra">Contraseña</string>
+    <string name="confirm_contra">Confirmar Contraseña</string>
+    <string name="crea_cuenta">Crear cuenta</string>
+    <string name="txv_contenido_javafx">JavaFX es una herramienta que permite a los desarrolladores crear aplicaciones de las llamadas rich internet applications (RIAs). JavaFX está diseñada para proveer una plataforma ligera y acelerada de gráficos para aplicaciones de negocio empresariales, al mismo tiempo que permite a los desarrolladores crear sus aplicaciones completamente en el lenguaje de programación Java.</string>
+    <string name="contenido_caracteristicas_clave">Las aplicaciones JavaFX pueden ser ejecutadas en una amplia variedad de dispositivos. En su versión (JavaFX 1.3, abril 2010) permite crear aplicaciones de escritorio, para celulares, la Web, TV, consolas de videojuegos, reproductores Blu-ray, entre otras plataformas planeadas.</string>
+    <string name="contenido_puedo_construir">Al descargar JavaFX obtendrá JavaFX Runtime. JavaFX Runtime consta de un conjunto de bibliotecas Java que permiten utilizar interfaces de usuario con un aspecto vanguardista, así como de códigos de funcionamiento específico que permiten acceder a recursos de hardware (por ejemplo, a la tarjeta gráfica). Al descargar JavaFX, se obtiene únicamente aquello que se necesita, sin spyware ni virus.</string>
+    <string name="contenido_vista_controlador">El modelo–vista–controlador (MVC) es un patrón de arquitectura de software que separa los datos y la lógica de negocio de una aplicación de la interfaz de usuario y el módulo encargado de gestionar los eventos y las comunicaciones. Para ello MVC propone la construcción de tres componentes distintos que son el modelo, la vista y el controlador, es decir, por un lado define componentes para la representación de la información, y por otro lado para la interacción del usuario. Nuestra vista en JavaFX es, sugerentemente, dada por archivos FXML que son archivos de XML que definen la interfaz gráfica y que delegan a los Controladores las acciones a realizar cuando el usuario haga uso de cada uno de los componentes de nuestra Interfaz de Usuario (UI). El controlador pues decide como se comportará la vista y se comunicará con nuestro Modelo de Negocio de acuerdo a las necesidades de este.</string>
+    <string name="contenido_arqui">Los nodos son elementos individuales que forman una escena, como por ejemplo botones, cuadros de texto, layouts etc. Si seguimos con el símil de un teatro, los nodos serían los actores y el atrezo. Sin embargo, en Java FX los nodos pueden tener nodos hijos, que a su vez tienen otros nodos hijos, como si de las ramas de un árbol se tratase. El conjunto de todos los nodos que forman una escena es lo que llamamos Scene Graph o grafo de la escena. En Java FX existe un nodo especial llamado root node o nodo raíz/padre del cual extienden todos los demás nodos, y es el único que no tiene un nodo padre, por que todos los demás nodos si lo tienen y son descendientes ya sea directa o indirectamente del root node. Todos los nodos extienden de la clase Node, y existen otras clases que extienden directa o indirectamente de Node, como Parent, de la cual ya tenemos un objeto en nuestra platilla por defecto, y por nombrar algunas más tenemos Group, Region o Control</string>
+    <string name="contenido_hilos">El sistema ejecuta dos o más de los siguientes hilos en un momento dado: \n
+        \n• JavaFX application thread: Este es el hilo principal utilizado por los desarrolladores de aplicaciones JavaFX. Cualquier scene en vivo, que es una escena que es parte de una ventana, se debe acceder desde este hilo. Un escenario gráfico se puede crear y manipular en un subproceso en segundo plano, pero cuando su nodo raíz se adjunta a cualquier objeto en vivo en la escena, ese escenario gráfico debe acceder desde el subproceso de la aplicación JavaFX. Esto permite a los desarrolladores crear gráficos de escenas complejas en un subproceso en segundo plano mientras se mantiene animaciones en escenas \'en vivo\' suave y rápido. El subproceso de la aplicación JavaFX es un hilo diferente al Swing y AWT Distribuidor de Eventos Thread (EDT), por lo que se debe tener cuidado al incrustar código JavaFX en aplicaciones Swing. \n
+        \n• Prism render thread: Este thread se encarga de la representación por separado del distribuidor de eventos(EDT). Permite la trama(frame) N se represente mientras que la trama N +1 se está procesando. Esta capacidad de llevar a cabo el procesamiento simultáneo es una gran ventaja, especialmente en los sistemas modernos que tienen varios procesadores. El hilo Prism también puede tener múltiples hilos de rasterización que ayudan el trabajo fuera de la carga que hay que hacer en la representación. \n
+        \n• Media thread: Este se ejecuta en segundo plano y sincroniza los últimos frames a través del escenario gráfico utilizando el subproceso de la aplicación JavaFX.</string>
+    <string name="contenido_imagenes">JavaFX funcionalidad multimedia se encuentra disponible a través de las APIs javafx.scene.media. JavaFX es compatible con ambos medios visuales y de audio. Se proporciona soporte para MP3, AIFF, y WAV archivos de audio y archivos de vídeo FLV. JavaFX funcionalidad multimedia se proporciona como tres componentes separados: el objeto Media representa un archivo multimedia, el MediaPlayer reproduce un archivo multimedia, y una MediaView es un nodo que muestra los medios de comunicación. El componente del motor de Media, se ha diseñado con el rendimiento y la estabilidad en mente y proporciona un comportamiento coherente en todas las plataformas. Para obtener más información, lea la incorporación de los Media Assets.</string>
+    <string name="contenido_hola_mundo"><![CDATA[Construya la aplicación \n
+    1. En el menú Archivo, seleccione Nuevo proyecto. \n
+    2. En la categoría de aplicaciones JavaFX, elija Aplicación JavaFX. Haga clic en Siguiente. \n
+    3. Asigne un nombre al proyecto HolaMundo y haga clic en Finalizar. \n
+    NetBeans abre el archivo HolaMundo.java y la rellena con el código de una aplicación básica de Hola Mundo\n \n
+    package holamundo; \n
+    import javafx.application.Application; \n
+    import javafx.event.ActionEvent; \n
+    import javafx.event.EventHandler; \n
+    import javafx.scene.Scene; \n
+    import javafx.scene.control.Button; \n
+    import javafx.scene.layout.StackPane; \n
+    import javafx.stage.Stage; \n
+    public class HolaMundo extends Application { \n
+    @Override \n
+    public void start(Stage stage) { \n
+    Button boton = new Button(); \n
+    boton.setText(Di \'Hola Mundo\'); \n
+    boton.setOnAction(new EventHandler<ActionEvent>() {\n
+    @Override \n
+    public void handle(ActionEvent event) { \n
+    System.out.println(Hola Mundo!); \n
+    } \n
+    }); \n \n
+    StackPane layout = new StackPane(); \n
+    layout.getChildren().add(boton); \n
+    Scene escena = new Scene(layout, 300, 250); \n
+    stage.setTitle(Hola Mundo!); \n
+    stage.setScene(escena); \n
+    stage.show(); \n
+    } \n
+    public static void main(String[] args) { \n
+    launch(args); \n
+    } \n
+    }\n \n
+    • La clase principal para una aplicación JavaFX amplía(extends) la clase javafx.application.Application. El método start() es el principal punto de entrada para todas las aplicaciones JavaFX. \n \n
+    • Una aplicación JavaFX define el contenedor(container) de interfaz de usuario(UI) por medio de una etapa(Stage) y una escena(Scene). La clase de JavaFX “Stage” es el contenedor JavaFX de nivel superior. La clase de JavaFX “Scene” es el contenedor de todo el contenido. \n \n
+    • En JavaFX, el contenido de la escena se representa como un gráfico de la escena jerárquica de nodos. En este ejemplo, el nodo raíz es un objeto StackPane, que es un nodo de diseño(layout) de tamaño variable. Esto significa que el tamaño del nodo de la raíz escucha el tamaño de la escena y cambia cuando se cambia el tamaño de la etapa por un usuario. \n \n
+    • El nodo raíz contiene un nodo hijo, un control de botón con texto, además de un controlador de eventos para imprimir un mensaje cuando se pulsa el botón. \n \n
+    • El método main() no es necesario para las aplicaciones JavaFX cuando se crea el archivo JAR para la aplicación con la herramienta de JavaFX Packager que incrusta el Lanzador JavaFX(JavaFX Launcher) en el archivo JAR. Sin embargo, es útil incluir el método main() para que pueda ejecutar archivos JAR que se crearon sin el Lanzador JavaFX (JavaFX Launcher), como cuando se utiliza un IDE en el que las herramientas de JavaFX no están totalmente integradas. Además, las aplicaciones Swing que incrustan código JavaFX requieren el método main().]]></string>
+    <string name="contenido_interfaz">Tu primer tarea será configurar un Proyecto Aplicación JavaFX FXML en el IDE NetBeans: 1. En el menu Archivo, elija Nuevo Proyecto 2. En la categória de aplicación JavaFX, elija Aplicación JavaFX FXML. Luego clic en Siguiente. 3. Coloque el nombre al proyecto FXMLExample y clic en Finalizar. • FXMLExample.java. Este archivo se encarga del código Java estándar requerido para una aplicación FXML. • FXMLDocument.fxml. Este es el archivo de origen FXML en el que se define la interfaz de usuario. • FXMLDocumentController.java. Este es el archivo de controlador para manejar la entrada del ratón y el teclado. 4. Renombre el archivo FXMLDocumentController.java a FXMLExampleController.java para que el nombre sea mas significativo para esta aplicación. a. En la ventana Proyectos, haga clic con el botón FXMLDocumentController.java y seleccione Refactor luego Cambiar nombre. b. Introduzca FXMLExampleController, y haga clic en Refactorizar. 5. Renombre FXMLDocument.fxml a fxml_example.fxml. a. Haga clic derecho y seleccione Cambiar nombre FXMLDocument.fxml. b. Introduzca fxml_example y haga clic en Aceptar. Cargue el archivo de origen FXML El primer archivo a editar es el archivo FXMLExample.java. Este archivo incluye el código para la creación de la clase principal de la aplicación y para definir el escenario y escena. Más específico FXML, el archivo utiliza la clase FXMLLoader, que es responsable de cargar el archivo de origen FXML y devolver el gráfico de objetos resultante. Realice los cambios que aparecen en negrita en el ejemplo 6-1. Ejemplo 6-1 FXMLExample.java @Override public void start(Stage stage) throws Exception { Parent root = FXMLLoader.load(getClass().getResource(fxml_example.fxml)); Scene scene = new Scene(root, 300, 275); stage.setTitle(FXML Welcome); stage.setScene(scene); stage.show(); } Una buena práctica consiste en establecer la altura y la anchura de la escena cuando la crea, en este caso 300 por 275, de lo contrario los valores predeterminados de escena al mínimo necesario para mostrar su contenido.</string>
+    <string name="contenido_graficos_sistema">Es un detalle de implementación debajo de la capa gráfica escena JavaFX. Es compatible tanto con 2-D y escenarios gráficos en 3-D.\n Proporciona la representación del software cuando el hardware de gráficos en un sistema es insuficiente para apoyar renderizado acelerado por hardware.\n Dos ductos de aceleración de gráficos se implementan en la plataforma\n JavaFX:\n • Los procesos de Prism. Puede funcionar en dos renderizadores de hardware y software, incluyendo 3-D. Es responsable de la rasterización y renderizado de escenas de JavaFX. A continuación múltiples caminos son posibles en función del dispositivo que se utiliza: \n o DirectX 9 en Windows XP y Windows Vista \n o DirectX 11 en Windows 7 \n o OpenGL en Mac, Linux, Embedded \n o Software de representación cuando la aceleración de hardware no es posible \n o El hardware da vía de acceso completamente acelerado se utiliza siempre que sea posible, pero cuando no esté disponible, el software se utiliza path porque el software ya se distribuye en todos los entornos de ejecución Java (JRE). Esto es particularmente importante cuando manejan escenas 3-D. Sin embargo, el rendimiento es mejor cuando el hardware se utilizan estos path. \n • Quantum Toolkit une Prism y Glass Windowing Toolkit juntos y lospone a disposición de la capa de JavaFX por encima de ellos enla pila. También gestiona las normas vinculadas a la prestación de enhebrado contra el control de eventos.</string>
+    <string name="contenido_ventana_glass">Es el nivel más bajo de la pila de gráficos JavaFX. Su responsabilidad principal es proporcionar servicios operativos nativos, tales como el manejo de las ventanas, temporizadores y superficies. Además, es la capa depende de la plataforma que conecta la plataforma JavaFX para el sistema operativo nativo. El kit de herramientas Glass es también responsable de la gestión de la cola de eventos. A diferencia de Abstract Window Toolkit (AWT), que gestiona su propia cola de eventos, el kit de herramientas Glass utiliza la funcionalidad de cola de eventos del sistema operativo nativo para programar el uso de hilo. También a diferencia de AWT, el kit de herramientas Glass se ejecuta en el mismo subproceso que la aplicación JavaFX. En AWT, el medio natural de AWT se ejecuta en un hilo y el nivel de Java se ejecuta en otro hilo. Esto introduce una gran cantidad de temas, muchos de los cuales se resuelven en JavaFX utilizando el enfoque de subproceso de la aplicación única JavaFX.</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="practica1"><![CDATA[public void start(Stage stage) {]]></string>
+    <string name="practica2">Button boton = new _______();</string>
+    <string name="practica3">boton.setText(Di \'Hola Mundo\');</string>
+    <string name="practica4"><![CDATA[boton.setOnAction(new EventHandler<ActionEvent>() {]]></string>
+    <string name="practica5">![cdata[@Override]]</string>
+    <string name="practica6">public void handle(ActionEvent event) {</string>
+    <string name="practica7">System.out.println(Hola Mundo!);</string>
+    <string name="contenido_css">Ofrece la posibilidad de aplicar un estilo personalizado a la interfaz de usuario de una aplicación JavaFX sin cambiar ningún de código fuente de la aplicación. CSS se puede aplicar a cualquier nodo en el gráfico de la escena JavaFX y se aplica a los nodos de forma asincrónica. Estilos CSS JavaFX también pueden ser fácilmente asignados a la escena en tiempo de ejecución, lo que permite la aparición de una aplicación para cambiar dinámicamente.</string>
+    <string name="controles_contenido">Los controles de interfaz de usuario JavaFX están disponibles a través de la API de JavaFX, se construyen mediante el uso de nodos en el escenario gráfico(Scene Graph). Ellos pueden sacar el máximo provecho de las características de gran riqueza visual de la plataforma JavaFX y son portátiles a través de diferentes plataformas. JavaFX CSS permite una tematización y el maquillado de los controles de interfaz de usuario.</string>
+    <string name="layouts_contenido">Contenedores de diseño o paneles pueden ser utilizados para prever disposiciones flexibles y dinámicas de los controles UI dentro de un escenario gráfico de una aplicación JavaFX. La API de JavaFX Layout incluye las siguientes clases de contenedor(container) que automatizan los modelos disposición(layouts) frecuentes: \n
+        \n• La clase BorderPane expone sus nodos de contenido en la parte superior, inferior, derecha, izquierda, centro o región. \n
+        • La clase HBox organiza sus nodos de contenido horizontalmente en una sola fila.\n
+        • La clase VBox organiza sus nodos de contenido verticalmente en una sola columna. \n
+        • La clase StackPane coloca sus nodos de contenido en una sola pila de atras hacia delante. \n
+        • La clase GridPane permite al desarrollador crear una cuadrícula flexible de filas y columnas en la que se diseña nodos de contenido. \n
+        • La clase FlowPane organiza sus nodos de contenido, ya sea en horizontal o vertical "flujo", envolviendo en el ancho especificado (para horizontal) o altura (vertical) de los límites. \n
+        • La clase TilePane coloca sus nodos de contenido en las celdas de diseño de tamaño uniforme o tejas \n
+        • La clase AnchorPane permite a los desarrolladores crear nodos de ancla en la parte superior, inferior, izquierda o centro del diseño. Para lograr una estructura de disposición deseada, distintos contenedores pueden anidarse dentro de una aplicación JavaFX. Para obtener más información sobre cómo trabajar con los layouts, vea el articulo Trabajo con layouts JavaFX. Para obtener más información sobre la API Layout JavaFX, consulte la documentación de la API para el paquete javafx.scene.layout.</string>
+    <string name="contenido_incluyendo">Su primera tarea es crear un nuevo archivo CSS y guárdalo en el mismo directorio que la clase principal de la aplicación. Después de eso, usted debe hacer que la aplicación JavaFX tome de la hoja de estilos en cascada que acaba de agregar. \n
+        1. En la ventana de NetBeans IDE Proyectos, expanda el nodo del Proyecto Login y luego el nodo de directorio de paquetes(source packages) fuente. \n
+        2. Haga clic derecho debajo de directorio de paquetes(source packages) y en el paquete actual de trabajo, seleccione Nuevo y a continuación Otros \n
+        3. En el cuadro de diálogo Nuevo archivo, seleccione Otro, de Cascading Style Sheet, y haga clic en Siguiente. \n
+        4. Coloque el nombre de Login para el campo de texto en Nombre de archivo y asegurese de que el valor del campo de texto de la carpeta este en el mismo lugar que el del código fuente. \n
+        5. Clic en Finalizar. \n
+        6. En el archivo Login.java, se inicializa la variable de hojas de estilo de la “clase escena(Scene)” para que apunte a la hoja de estilos en cascada mediante la inclusión de la línea de código que se muestra a continuación en negrita \n
+        Scene scene = new Scene(grid, 300, 275); \n
+        primaryStage.setScene(scene); \n
+        scene.getStylesheets().add( Login.class.getResource(Login.css).toExternalForm(); \n
+        primaryStage.show(); \n
+        Este código busca la hoja de estilos en el directorio de srclogin en el proyecto de NetBeans.</string>
+    <string name="contenido_fxml">Tu primer tarea será configurar un Proyecto Aplicación JavaFX FXML en el IDE NetBeans: \n
+        1. En el menu Archivo, elija Nuevo Proyecto \n
+        2. En la categória de aplicación JavaFX, elija Aplicación JavaFX FXML. Luego clic en Siguiente. \n
+        3. Coloque el nombre al proyecto FXMLExample y clic en Finalizar.\n \n
+        • FXMLExample.java. Este archivo se encarga del código Java estándar requerido para una aplicación FXML. \n
+        • FXMLDocument.fxml. Este es el archivo de origen FXML en el que se define la interfaz de usuario. \n
+        • FXMLDocumentController.java. Este es el archivo de controlador para manejar la entrada del ratón y el teclado. \n \n
+        4. Renombre el archivo FXMLDocumentController.java a FXMLExampleController.java para que el nombre sea mas significativo para esta aplicación. \n
+        a. En la ventana Proyectos, haga clic con el botón FXMLDocumentController.java y seleccione Refactor luego Cambiar nombre. \n
+        b. Introduzca FXMLExampleController, y haga clic en Refactorizar. \n
+        5. Renombre FXMLDocument.fxml a fxml_example.fxml. \n
+        a. Haga clic derecho y seleccione Cambiar nombre FXMLDocument.fxml. \n
+        b. Introduzca fxml_example y haga clic en Aceptar. \n \n
+        Cargue el archivo de origen FXML \n
+        El primer archivo a editar es el archivo FXMLExample.java. Más específico FXML, el archivo utiliza la clase FXMLLoader, que es responsable de cargar el archivo de origen FXML y devolver el gráfico de objetos resultante. \n
+        FXMLExample.java \n
+        @Override \n
+        public void start(Stage stage) throws Exception { \n
+        Parent root = FXMLLoader.load(getClass().getResource(fxml_example.fxml)); \n
+        Scene scene = new Scene(root, 300, 275); \n
+        stage.setTitle(FXML Welcome); \n
+        stage.setScene(scene); \n
+        stage.show(); \n
+        } \n
+        Una buena práctica consiste en establecer la altura y la anchura de la escena cuando la crea, en este caso 300 por 275, de lo contrario los valores predeterminados de escena al mínimo necesario para mostrar su contenido.</string>
+    <string name="titulo_vis_video">Visualizacion de videos</string>
+    <string name="play_button">Jugar</string>
+    <string name="exit">Salir</string>
+    <string name="feedback_title">Ayuda: </string>
+    <string name="moves_title">Movimientos: </string>
+    <string name="game_feedback_text">Sin ayuda aun</string>
+    <string name="inicio">Inicio</string>
+    <string name="dataalta">Registrate</string>
+    <string name="proposito_login">EL beneficio de iniciar sesion es poder acceder al juego didactico propuesto por el desarrollador</string>
+    <string name="advertencia_pasar_quiz">Se necesita aprobar el cuestionario anterior para poder desbloquear los siguientes temas, si no es asi el tema no sera abierto</string>
+    <string-array name="type">
+        <item>New Game</item>
+        <item>4 X 4</item>
+        <item>4 X 5</item>
+        <item>4 X 6</item>
+        <item>5 X 6</item>
+        <item>6 X 6</item>
+    </string-array>
+</resources>

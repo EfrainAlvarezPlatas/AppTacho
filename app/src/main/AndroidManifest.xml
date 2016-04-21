@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.utng.apptacho">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/javafx"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".main.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login.LoginPrincipal" />
+        <activity android:name=".contenidoTematico.AudiosActivity" />
+        <activity android:name=".contenidoTematico.VideoActivity" />
+        <activity android:name=".quiz.CuestionarioActivity" />
+        <activity android:name=".contenidoTematico.ActivityAcercaDe" />
+        <activity android:name=".contenidoTematico.Temario" />
+        <activity android:name=".main.Valorar" />
+        <activity android:name=".contenidoTematico.LeccionIntro" />
+        <activity android:name=".contenidoTematico.CaractClave" />
+        <activity android:name=".contenidoTematico.PuedoConstruir" />
+        <activity android:name=".contenidoTematico.VistaControlador" />
+        <activity android:name=".contenidoTematico.Arquitectura" />
+        <activity android:name=".contenidoTematico.Hilos" />
+        <activity android:name=".contenidoTematico.Imagenes" />
+        <activity android:name=".contenidoTematico.HolaMundo" />
+        <activity android:name=".contenidoTematico.GraficosSistema" />
+        <activity android:name=".contenidoTematico.VentanaGlass" />
+        <activity android:name=".contenidoTematico.CSS"/>
+        <activity android:name=".contenidoTematico.Controles"/>
+        <activity android:name=".contenidoTematico.Layouts"/>
+        <activity android:name=".contenidoTematico.IncluyendoCSS"/>
+        <activity android:name=".login.RegistrateActivity"/>
+        <activity android:name=".login.SignUPActivity"/>
+        <activity android:name=".configuracion.ActividadConfiguracion"/>
+        <activity android:name=".correo.CorreoActivity"/>
+        <activity android:name=".Manager"/>
+        <activity android:name=".quiz.ResultActivity"/>
+        <activity android:name=".quiz.ResultActivityDos"/>
+        <activity android:name=".quiz.ResultActivityTres"/>
+        <activity android:name=".quiz.QuizActivity"/>
+        <activity android:name=".quiz.QuizActivityDos"/>
+        <activity android:name=".quiz.QuizActivityTres"/>
+        <activity android:name=".grafica.GraficoActivityDos"/>
+        <activity android:name=".contenidoTematico.Fxml"/>
+
+
+
+
+    </application>
+
+</manifest>

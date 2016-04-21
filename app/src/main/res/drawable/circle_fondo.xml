@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <padding android:top="@dimen/item_touch_helper_max_drag_scroll_per_frame"/>
+    <solid android:color="@android:color/holo_green_dark"/>
+    <size android:height="200dp" android:width="200dp"/>
+    </shape>

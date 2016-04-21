@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txv_visualizacion"
+        android:layout_width="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_vis_video"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:textSize="40dp"/>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_videos"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/conc_basicos"
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btn_video2"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/primeros_pasos"
+        />
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btn_video3"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/video_curso"
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_video4"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/imagenes_java"
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btn_video5"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/menu_bar"
+        />
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btn_video6"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/java_composer"
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_video7"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/navegacion_dialogos"
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btn_video8"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/java_fx"
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btn_video9"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/table_view"
+        />
+
+</LinearLayout>
+    </ScrollView>
